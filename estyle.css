@@ -1,0 +1,97 @@
+body {
+    background-color: rgba(82, 78, 99, 0.678);
+    box-sizing: border-box;
+    font-family: 'Patua One', Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(51, 46, 63, 0.295);
+    font-size: 25pt;
+    word-spacing: 10px;
+
+}
+
+
+
+section {
+    background: rgba(255, 255, 255, 0.164);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+footer {
+    margin: 0;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+
+}
+
+li {
+    margin-left: -40px;
+    width: 107%;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: rgba(91, 35, 223, 0.082);
+    padding: 6px 6px 6px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(104, 94, 94);
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-variant: small-caps;
+}
+
+input {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.438);
+    box-shadow: 2px 2px 10px rgb(104, 94, 94);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12pt;
+
+
+}
+
+#txtTarefas {
+    width: 350px;
+    color: black;
+    cursor: crosshair;
+}
+
+#btnClear {
+    font-weight: 600;
+    width: 90px;
+
+}
+
+#btnAdd {
+    font-weight: 600;
+    width: 65px
+}
+
+
+.delete {
+    cursor: pointer;
+
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+button {
+    font-size: 16pt;
+    float: right;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px rgba(0, 0, 0, 0);
+    padding: 0
+}
